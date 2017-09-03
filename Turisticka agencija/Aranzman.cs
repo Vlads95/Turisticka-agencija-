@@ -21,9 +21,9 @@ namespace Turisticka_agencija
             DateTime datumPolaska,
         double cena,
         int maxBrPutnika, string naziv,
-         string destinacja,
+         string destinacija,
          int udaljenost,
-         Vrsta vrsta) :base(naziv, destinacja,udaljenost,vrsta)
+         Vrsta vrsta) : base(naziv, destinacija, udaljenost, vrsta)
         {
             this.datumPolaska = datumPolaska;
             this.cena = cena;
